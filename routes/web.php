@@ -9,6 +9,7 @@ use App\Http\Controllers\LeadershipController;
 
 Route::view('/', 'home')->name('home');
 Route::view('programs', 'programs')->name('programs.index');
+//Rutas de los talleres
 Route::get('workshops',[WorkshopController::class,'index'])->name('workshops.index');
 Route::get('workshops/oratory',[OratoryController::class,'index'])->name('workshops.oratory.index');
 Route::get('workshops/leadership',[LeadershipController::class,'index'])->name('workshops.leadership.index');

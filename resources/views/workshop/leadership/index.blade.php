@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title','Programas')
+@section('title','Liderazgo')
 
 @section('content')
     <h2>Bienvenidos al Taller de Liderazgo </h2>
